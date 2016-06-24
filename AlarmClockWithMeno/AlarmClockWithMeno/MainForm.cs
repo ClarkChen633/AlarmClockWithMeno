@@ -26,5 +26,13 @@ namespace AlarmClockWithMeno
         {
             timelabel.Text = DateTime.Now.ToString("HH:mm:ss");
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            SetupForm setform = new SetupForm();
+            setform.ShowInTaskbar = false;
+            setform.StartPosition = FormStartPosition.CenterScreen;
+            setform.ShowDialog(this);
+        }
     }
 }
