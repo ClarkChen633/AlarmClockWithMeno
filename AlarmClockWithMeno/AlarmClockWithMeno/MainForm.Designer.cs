@@ -36,11 +36,11 @@
             this.button2 = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.TimeDataGV = new System.Windows.Forms.DataGridView();
             this.button3 = new System.Windows.Forms.Button();
             this.etimer = new System.Windows.Forms.Timer(this.components);
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TimeDataGV)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -105,15 +105,15 @@
             this.textBox1.TabIndex = 4;
             this.textBox1.Text = "0";
             // 
-            // dataGridView1
+            // TimeDataGV
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.GridColor = System.Drawing.SystemColors.Info;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 184);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(472, 220);
-            this.dataGridView1.TabIndex = 5;
+            this.TimeDataGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.TimeDataGV.GridColor = System.Drawing.SystemColors.Info;
+            this.TimeDataGV.Location = new System.Drawing.Point(12, 184);
+            this.TimeDataGV.Name = "TimeDataGV";
+            this.TimeDataGV.RowTemplate.Height = 24;
+            this.TimeDataGV.Size = new System.Drawing.Size(472, 220);
+            this.TimeDataGV.TabIndex = 5;
             // 
             // button3
             // 
@@ -138,7 +138,7 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(496, 477);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.TimeDataGV);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.button2);
@@ -153,7 +153,7 @@
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.TimeDataGV)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -167,7 +167,7 @@
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView TimeDataGV;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Timer etimer;
     }
